@@ -16,6 +16,12 @@ L’équipe peut consulter les restaurants disponibles chaque jour.
 - [ ] La liste affiche au moins 5 restaurants
 - [ ] Nom, type de cuisine et délai moyen visibles
 
+## Tests attendus
+- [ ] Vérifier l’affichage correct de la liste
+- [ ] Vérifier le temps d’affichage
+- [ ] Vérifier le style et la mise en page
+
+
 ## Données d’exemple
 ```json
 {
@@ -63,11 +69,5 @@ L’équipe peut consulter les restaurants disponibles chaque jour.
   ]
 }
 
----
-Tests attendus
 
-Vérifier l’affichage correct de la liste
 
-Vérifier le temps d’affichage
-
-Vérifier le style et la mise en page
