@@ -1,6 +1,6 @@
-# Contributing Guide – AtelierA!
+# Contributing Guide – Liverooo!
 
-Thank you for contributing to the **AtelierA** project!
+Thank you for contributing to the **Liverooo** project!
 This document defines the technical collaboration rules for the DevOps team.
 
 ---
