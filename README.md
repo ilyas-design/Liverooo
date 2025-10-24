@@ -27,12 +27,12 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ilyas-design/atelierA.git
+   git clone [https://github.com/ilyas-design/atelierA.git](https://github.com/ilyas-design/Liverooo.git)
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd atelierA
+   cd Liverooo
    ```
 
 3. Install dependencies:
