@@ -1,114 +1,107 @@
-# Guide de contribution – Liverooo!
+# Contributing Guide – AtelierA!
 
-Merci de contribuer au projet **Liverooo!**  
-Ce document définit les règles de collaboration technique de l’équipe DevOps.
-
----
-
-##  Règles de branches
-
-- La branche `main` est **protégée** → aucun commit direct dessus.  
-- Toute nouvelle fonctionnalité ou correction doit se faire sur une **branche dédiée**.
-
-### Convention de nommage des branches :
-| Type de branche | Exemple | Description |
-|-----------------|----------|-------------|
-| `feat/` | `feat/ajout-authentification` | Nouvelle fonctionnalité |
-| `fix/` | `fix/bug-commande` | Correction de bug |
-| `docs/` | `docs/mise-a-jour-readme` | Documentation |
-| `test/` | `test/ajout-tests-unitaires` | Ajout ou modification de tests |
-| `chore/` | `chore/nettoyage-code` | Maintenance, configuration, etc. |
+Thank you for contributing to the **AtelierA** project!
+This document defines the technical collaboration rules for the DevOps team.
 
 ---
 
-##  Workflow PR / MR
+## Branch Rules
 
-Le processus de contribution au projet **Liverooo!** se déroule selon les étapes suivantes :
+- The `main` branch is **protected** → no direct commits.
+- Any new feature or bug fix must be done on a **dedicated branch**.
 
-1. **Créer une nouvelle branche** à partir de `main`  
-   → Nommer la branche selon la convention (`feat/`, `fix/`, etc.)
+### Branch Naming Convention:
 
-2. **Développer la fonctionnalité ou la correction** sur cette branche.
-
-3. **Faire un commit** en respectant la convention suivante :  
-<type>: <courte description>
-
-
-Exemple :  
-feat: ajout du module de commande collective
-
-
-
-4. **Pousser la branche** vers le dépôt distant :  
-git push origin nom-de-la-branche
-
-
-5. **Ouvrir une Pull Request (PR)** (ou Merge Request (MR)) vers la branche `main`.
-
-6. **Faire relire la PR/MR** par un autre membre de l’équipe avant le merge.
-
-7. Une fois la revue validée et les tests passés, **fusionner (merge)** la branche dans `main`.
+| Branch Type | Example | Description |
+|-------------|---------|-------------|
+| `feat/` | `feat/add-authentication` | New feature |
+| `fix/` | `fix/bug-command` | Bug fix |
+| `docs/` | `docs/update-readme` | Documentation |
+| `test/` | `test/add-unit-tests` | Add or modify tests |
+| `chore/` | `chore/code-cleanup` | Maintenance, configuration, etc. |
 
 ---
 
- **Résumé du workflow :**  
-Créer branche → Commit → Push → Ouvrir PR/MR → Review → Merge
+## PR / MR Workflow
 
+The contribution process for the **AtelierA** project follows these steps:
 
----
+1. **Create a new branch** from `main`
+   → Name the branch according to the convention (`feat/`, `fix/`, etc.)
 
-##  Conventions de commit
+2. **Develop the feature or fix** on this branch.
 
-Nous suivons le format **Conventional Commits** pour des messages clairs et homogènes :
+3. **Make a commit** following the convention below:
+   `<type>: <short description>`
 
-<type>: <courte description>
+Example:
+feat: add collective order module
 
+4. **Push the branch** to the remote repository:
+   ```
+   git push origin branch-name
+   ```
 
+5. **Open a Pull Request (PR)** (or Merge Request (MR)) to the `main` branch.
 
-**Exemples :**
-feat: ajout du module de commande collective
-fix: correction du bug d'affichage des restaurants
-docs: mise à jour du guide d’installation
-test: ajout des tests unitaires pour l’API
-chore: suppression des fichiers temporaires
+6. **Have the PR/MR reviewed** by another team member before merging.
 
+7. Once the review is validated and tests pass, **merge** the branch into `main`.
 
-
----
-
-##  Checklist de revue de code
-
-Lors d’une revue de code, vérifier que :
-
-- [ ] Le nom de branche respecte la convention  
-- [ ] Les commits sont clairs et bien nommés  
-- [ ] Le code est lisible et cohérent  
-- [ ] Les tests sont présents et passent avec succès  
-- [ ] Aucun fichier inutile ou secret n’est commité  
-- [ ] La documentation est mise à jour si nécessaire  
+**Workflow Summary:**
+Create branch → Commit → Push → Open PR/MR → Review → Merge
 
 ---
 
-##  Definition of Ready (DoR)
+## Commit Conventions
 
-Une **user story** est prête lorsqu’elle :
-- A des **critères d’acceptation clairs**  
-- A toutes les dépendances identifiées  
-- A les **maquettes** ou spécifications nécessaires  
-- Est **assez petite** pour être réalisée dans un sprint  
+We follow the **Conventional Commits** format for clear and consistent messages:
 
----
+`<type>: <short description>`
 
-##  Definition of Done (DoD)
-
-Une **user story** est terminée lorsqu’elle :
-- Respecte tous les critères d’acceptation  
-- Est **testée et validée** par l’équipe  
-- A été **relue et mergée** dans `main`  
-- N’introduit **aucune régression**  
-- A la documentation mise à jour  
+**Examples:**
+feat: add collective order module
+fix: fix restaurant display bug
+docs: update installation guide
+test: add unit tests for API
+chore: remove temporary files
 
 ---
 
-Merci de contribuer à **Liverooo!** 
-Votre rigueur garantit la qualité du projet et une collaboration fluide.
+## Code Review Checklist
+
+During a code review, verify that:
+
+- [ ] Branch name follows the convention
+- [ ] Commits are clear and well-named
+- [ ] Code is readable and coherent
+- [ ] Tests are present and pass successfully
+- [ ] No useless or secret files are committed
+- [ ] Documentation is updated if necessary
+
+---
+
+## Definition of Ready (DoR)
+
+A **user story** is ready when it:
+
+- Has **clear acceptance criteria**
+- Has all dependencies identified
+- Has the necessary **mockups** or specifications
+- Is **small enough** to be completed in one sprint
+
+---
+
+## Definition of Done (DoD)
+
+A **user story** is done when it:
+
+- Meets all acceptance criteria
+- Is **tested and validated** by the team
+- Has been **reviewed and merged** into `main`
+- Introduces **no regression**
+- Has updated documentation
+
+---
+
+Thank you for contributing to **AtelierA!** Your rigor ensures project quality and smooth collaboration.
