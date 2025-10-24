@@ -63,6 +63,7 @@ L’équipe peut consulter les restaurants disponibles chaque jour.
   ]
 }
 
+---
 Tests attendus
 
 Vérifier l’affichage correct de la liste
