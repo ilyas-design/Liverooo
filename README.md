@@ -1,8 +1,8 @@
-# AtelierA
+# Liverooo!
 
 ## Overview
 
-AtelierA is a collaborative project workspace designed for team-based development and creative workflows.
+Liverooo is a collaborative project workspace designed for team-based development and creative workflows.
 
 ## About
 
